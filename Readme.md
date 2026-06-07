@@ -4,9 +4,8 @@ This seems to get rare and expensive. Second point is this is a very noisy amp.
 
 Currently two Versions are availabel
 
-* OPA1679 SOID - with a bigger PCB (Ordered but not tested now)
-* OPA1679 TSSOP - with a very small pcb and mounted on the bottom (Ordered but not tested now)
-
+* OPA1679IDR SOIC - OPA1679IDR, SOIC 14 with a bigger PCB (Ordered but not tested now)
+* OPA1679IPWR TSSOP - with a very small pcb and mounted on the bottom (Ordered but not tested now)
 
 ## Why
 Searched for an RC4236 for my Adlib Replica and got faik from China.
