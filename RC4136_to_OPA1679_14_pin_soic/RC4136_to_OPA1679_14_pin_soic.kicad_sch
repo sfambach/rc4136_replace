@@ -1,0 +1,2170 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "511931a4-554d-4f3e-bf51-12389109913a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:OPA1679"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA1679"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OPA1679_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1679_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1679_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1679_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1679_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Amplifier_Operational_AKL:RC4136N"
+			(pin_names
+				(offset 0.2)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RC4136N"
+				(at 1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+				(at 1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/rc4136.pdf?ts=1635078180688&ref_url=https%253A%252F%252Fwww.google.com%252F"
+				(at 1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DIP-14 Quad Operational Amplifier, 6mV Offset, 3MHz GBW, Alternate KiCAD Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp operational amplifier RC4136"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC4136N_0_1"
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RC4136N_1_1"
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.18)
+					(name "V-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 6.35 270)
+					(length 3.18)
+					(name "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RC4136N_2_1"
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RC4136N_3_1"
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RC4136N_4_1"
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d91f05-bec0-412b-bde7-886361269b3b")
+	)
+	(wire
+		(pts
+			(xy 93.98 50.8) (xy 93.98 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0783954c-173b-4353-9d91-fa05cb409f4c")
+	)
+	(wire
+		(pts
+			(xy 93.98 109.22) (xy 93.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5f3032-6cfc-446d-9b32-35ebc57ae082")
+	)
+	(wire
+		(pts
+			(xy 93.98 68.58) (xy 146.05 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b81d50b-b7e8-4904-8bc9-7f61b25002b7")
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c543f3c-ea4e-4bcb-be0d-558747cd680a")
+	)
+	(wire
+		(pts
+			(xy 161.29 59.69) (xy 161.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d26e279-cf95-447f-95ec-e267893446e3")
+	)
+	(wire
+		(pts
+			(xy 144.78 124.46) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ee5b21-1726-4332-8296-c327efc00b89")
+	)
+	(wire
+		(pts
+			(xy 93.98 90.17) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160a3d63-cb32-4751-b70c-ae03aa394f7f")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.52) (xy 93.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbf813c-f342-43e7-8848-fade1f10316e")
+	)
+	(wire
+		(pts
+			(xy 100.33 53.34) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ab4896-1f2a-450e-b3cb-d0e324c53760")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e6283b-c509-463d-9049-77764c6b3dbb")
+	)
+	(wire
+		(pts
+			(xy 109.22 118.11) (xy 160.02 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bdf1e6a-bb58-47cf-89ff-10d40992299c")
+	)
+	(wire
+		(pts
+			(xy 83.82 66.04) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d484cce-f61b-4293-adcb-0ae2bf1bf033")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427aa4af-767f-42c9-8ab7-ca086033c94e")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b8f678-623b-4196-905a-5af0a5ef98f2")
+	)
+	(wire
+		(pts
+			(xy 93.98 120.65) (xy 93.98 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d776593-2874-4ea3-968d-5de072330fdf")
+	)
+	(wire
+		(pts
+			(xy 93.98 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582641d9-ab77-4985-9aa8-7e347d61c496")
+	)
+	(wire
+		(pts
+			(xy 109.22 80.01) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb228c0-5504-498e-87a3-d32baeea0cc5")
+	)
+	(wire
+		(pts
+			(xy 109.22 59.69) (xy 161.29 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f45d78-5b6b-445c-8f67-d80be958b9d7")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 161.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666c7884-ce48-4c07-b2e5-a0f69bc8e0ce")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed06695-b848-43e9-a8c6-46a694cdeb9a")
+	)
+	(wire
+		(pts
+			(xy 146.05 95.25) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70271e72-6bc1-4dce-a52d-e02248f44ce2")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 93.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b03ecd-7fe0-4963-be58-0ced10e5fa28")
+	)
+	(wire
+		(pts
+			(xy 93.98 124.46) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b9738d-4b04-46d0-81bd-d15d2c4145a9")
+	)
+	(wire
+		(pts
+			(xy 146.05 68.58) (xy 146.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b203f3b-a146-49f1-9156-87c8ca336543")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 146.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e8a154-b0da-4ae4-8731-993a8aea854c")
+	)
+	(wire
+		(pts
+			(xy 93.98 50.8) (xy 146.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cec692-57d2-4023-aa80-bb97fc31bc16")
+	)
+	(wire
+		(pts
+			(xy 160.02 118.11) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5d267e-890a-4d75-b8be-89385c432a30")
+	)
+	(wire
+		(pts
+			(xy 100.33 40.64) (xy 83.82 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9e5838-4c11-42d7-ac25-07845d407f5a")
+	)
+	(wire
+		(pts
+			(xy 93.98 68.58) (xy 93.98 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce430169-d8c9-4995-8f23-53a8782369c7")
+	)
+	(wire
+		(pts
+			(xy 162.56 80.01) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12f7d5a-4e5b-4529-a206-8abbc3c17ea4")
+	)
+	(wire
+		(pts
+			(xy 93.98 82.55) (xy 93.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0df175-b431-4a8a-ade6-545ee3ebaace")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84946b6-4659-49b1-b24f-fac61e83079a")
+	)
+	(wire
+		(pts
+			(xy 100.33 66.04) (xy 83.82 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d81e1d-7594-4959-8d68-f4e242bc4d7b")
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:RC4136N")
+		(at 100.33 118.11 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0344ee15-f07f-4f84-863f-7456d8fda5d7")
+		(property "Reference" "U1"
+			(at 101.6 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC4136N"
+			(at 101.6 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+			(at 101.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/rc4136.pdf?ts=1635078180688&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 101.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIP-14 Quad Operational Amplifier, 6mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 100.33 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c723dc47-48c2-4a62-83a4-94fb2f1ef00b")
+		)
+		(pin "13"
+			(uuid "ef434a9a-e093-4c91-9aaa-fcb356167572")
+		)
+		(pin "2"
+			(uuid "505c40d8-189e-4074-869a-e32bd0ae9c75")
+		)
+		(pin "11"
+			(uuid "1a9d2658-9ebc-415d-a662-ab5f080d5130")
+		)
+		(pin "3"
+			(uuid "e87be371-a32e-4a39-82b5-d058312b5d70")
+		)
+		(pin "7"
+			(uuid "ebb433a2-1c3d-484f-bbd1-5f6d91e94553")
+		)
+		(pin "5"
+			(uuid "9b93ac8c-7c6a-4bb6-a0d4-7fbaeb24ae5e")
+		)
+		(pin "6"
+			(uuid "91e59f41-782d-4b19-8df8-7144c83d3c43")
+		)
+		(pin "8"
+			(uuid "41053912-327f-4600-8807-b2ce9858e81f")
+		)
+		(pin "9"
+			(uuid "fd9a14a1-be15-4f13-8d6f-f245df07c0d4")
+		)
+		(pin "4"
+			(uuid "0fa11e0a-03e0-4c7c-96c8-5b55a0c65c49")
+		)
+		(pin "10"
+			(uuid "648f4539-53fe-4f69-80a1-abe2126772ae")
+		)
+		(pin "12"
+			(uuid "335d9a3c-2b4b-4a52-899a-fa784009a6af")
+		)
+		(pin "14"
+			(uuid "050cfe8a-af2c-4753-ba39-a388d9827aef")
+		)
+		(instances
+			(project "RC4136_to_OPA1679_16_pin_soic"
+				(path "/511931a4-554d-4f3e-bf51-12389109913a"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:RC4136N")
+		(at 100.33 99.06 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "171ae416-c6f3-4156-a046-20e73607f046")
+		(property "Reference" "U1"
+			(at 101.6 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC4136N"
+			(at 101.6 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+			(at 101.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/rc4136.pdf?ts=1635078180688&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 101.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIP-14 Quad Operational Amplifier, 6mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c723dc47-48c2-4a62-83a4-94fb2f1ef00c")
+		)
+		(pin "13"
+			(uuid "ef434a9a-e093-4c91-9aaa-fcb356167573")
+		)
+		(pin "2"
+			(uuid "505c40d8-189e-4074-869a-e32bd0ae9c76")
+		)
+		(pin "11"
+			(uuid "1a9d2658-9ebc-415d-a662-ab5f080d5131")
+		)
+		(pin "3"
+			(uuid "e87be371-a32e-4a39-82b5-d058312b5d71")
+		)
+		(pin "7"
+			(uuid "ebb433a2-1c3d-484f-bbd1-5f6d91e94554")
+		)
+		(pin "5"
+			(uuid "9b93ac8c-7c6a-4bb6-a0d4-7fbaeb24ae5f")
+		)
+		(pin "6"
+			(uuid "91e59f41-782d-4b19-8df8-7144c83d3c44")
+		)
+		(pin "8"
+			(uuid "41053912-327f-4600-8807-b2ce9858e820")
+		)
+		(pin "9"
+			(uuid "fd9a14a1-be15-4f13-8d6f-f245df07c0d5")
+		)
+		(pin "4"
+			(uuid "0fa11e0a-03e0-4c7c-96c8-5b55a0c65c4a")
+		)
+		(pin "10"
+			(uuid "648f4539-53fe-4f69-80a1-abe2126772af")
+		)
+		(pin "12"
+			(uuid "335d9a3c-2b4b-4a52-899a-fa784009a6b0")
+		)
+		(pin "14"
+			(uuid "050cfe8a-af2c-4753-ba39-a388d9827af0")
+		)
+		(instances
+			(project "RC4136_to_OPA1679_16_pin_soic"
+				(path "/511931a4-554d-4f3e-bf51-12389109913a"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 153.67 92.71 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1875f26b-71f9-4a61-afbe-e4d7687ea6b0")
+		(property "Reference" "U2"
+			(at 153.67 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 153.67 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 154.94 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 153.67 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "60591b15-41da-48ec-8e52-70828236419c")
+		)
+		(pin "5"
+			(uuid "9e3f0069-99c2-4797-9898-dabe475aaa39")
+		)
+		(pin "2"
+			(uuid "6b0f297e-a1ff-457d-9626-07b1c31679fe")
+		)
+		(pin "10"
+			(uuid "db32a1d6-2880-429f-813d-d167a6b2ab44")
+		)
+		(pin "9"
+			(uuid "47992473-c8cb-49e0-9b00-57d915203236")
+		)
+		(pin "12"
+			(uuid "55e6d35e-dafb-4415-9219-dda94aa6d080")
+		)
+		(pin "4"
+			(uuid "61ef81fc-e662-449a-9ae9-a7ff463bfd4e")
+		)
+		(pin "6"
+			(uuid "fee65c0c-136a-405b-853c-5c4828d9c7bb")
+		)
+		(pin "11"
+			(uuid "a1c2d258-3c26-40c9-adb7-7bec2a7e79bb")
+		)
+		(pin "7"
+			(uuid "928b4cf1-efdf-4e1a-90d6-a5fa5b72aa6c")
+		)
+		(pin "1"
+			(uuid "8185e090-1a54-4dde-8504-e87ebf1680f7")
+		)
+		(pin "13"
+			(uuid "d8deda33-8003-47c5-b54a-2d3d28c92d15")
+		)
+		(pin "14"
+			(uuid "7fc75ba5-ad37-461a-aa67-76e105964522")
+		)
+		(pin "8"
+			(uuid "c1dd1af1-ce86-408b-a6d2-d09c8c423de6")
+		)
+		(instances
+			(project "RC4136_to_OPA1679_16_pin_soic"
+				(path "/511931a4-554d-4f3e-bf51-12389109913a"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:RC4136N")
+		(at 100.33 80.01 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bd60160-578a-4b6e-807c-bba8633a3bf3")
+		(property "Reference" "U1"
+			(at 101.6 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC4136N"
+			(at 101.6 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/rc4136.pdf?ts=1635078180688&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIP-14 Quad Operational Amplifier, 6mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 100.33 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c723dc47-48c2-4a62-83a4-94fb2f1ef00d")
+		)
+		(pin "13"
+			(uuid "ef434a9a-e093-4c91-9aaa-fcb356167574")
+		)
+		(pin "2"
+			(uuid "505c40d8-189e-4074-869a-e32bd0ae9c77")
+		)
+		(pin "11"
+			(uuid "1a9d2658-9ebc-415d-a662-ab5f080d5132")
+		)
+		(pin "3"
+			(uuid "e87be371-a32e-4a39-82b5-d058312b5d72")
+		)
+		(pin "7"
+			(uuid "ebb433a2-1c3d-484f-bbd1-5f6d91e94555")
+		)
+		(pin "5"
+			(uuid "9b93ac8c-7c6a-4bb6-a0d4-7fbaeb24ae60")
+		)
+		(pin "6"
+			(uuid "91e59f41-782d-4b19-8df8-7144c83d3c45")
+		)
+		(pin "8"
+			(uuid "41053912-327f-4600-8807-b2ce9858e821")
+		)
+		(pin "9"
+			(uuid "fd9a14a1-be15-4f13-8d6f-f245df07c0d6")
+		)
+		(pin "4"
+			(uuid "0fa11e0a-03e0-4c7c-96c8-5b55a0c65c4b")
+		)
+		(pin "10"
+			(uuid "648f4539-53fe-4f69-80a1-abe2126772b0")
+		)
+		(pin "12"
+			(uuid "335d9a3c-2b4b-4a52-899a-fa784009a6b1")
+		)
+		(pin "14"
+			(uuid "050cfe8a-af2c-4753-ba39-a388d9827af1")
+		)
+		(instances
+			(project "RC4136_to_OPA1679_16_pin_soic"
+				(path "/511931a4-554d-4f3e-bf51-12389109913a"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 86.36 48.26 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6885c0ce-d71f-4189-a848-81a717a505d6")
+		(property "Reference" "U2"
+			(at 85.09 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 85.09 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 87.63 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 86.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "60591b15-41da-48ec-8e52-70828236419d")
+		)
+		(pin "5"
+			(uuid "9e3f0069-99c2-4797-9898-dabe475aaa3a")
+		)
+		(pin "2"
+			(uuid "6b0f297e-a1ff-457d-9626-07b1c31679ff")
+		)
+		(pin "10"
+			(uuid "db32a1d6-2880-429f-813d-d167a6b2ab45")
+		)
+		(pin "9"
+			(uuid "47992473-c8cb-49e0-9b00-57d915203237")
+		)
+		(pin "12"
+			(uuid "55e6d35e-dafb-4415-9219-dda94aa6d081")
+		)
+		(pin "4"
+			(uuid "61ef81fc-e662-449a-9ae9-a7ff463bfd4f")
+		)
+		(pin "6"
+			(uuid "fee65c0c-136a-405b-853c-5c4828d9c7bc")
+		)
+		(pin "11"
+			(uuid "a1c2d258-3c26-40c9-adb7-7bec2a7e79bc")
+		)
+		(pin "7"
+			(uuid "928b4cf1-efdf-4e1a-90d6-a5fa5b72aa6d")
+		)
+		(pin "1"
+			(uuid "8185e090-1a54-4dde-8504-e87ebf1680f8")
+		)
+		(pin "13"
+			(uuid "d8deda33-8003-47c5-b54a-2d3d28c92d16")
+		)
+		(pin "14"
+			(uuid "7fc75ba5-ad37-461a-aa67-76e105964523")
+		)
+		(pin "8"
+			(uuid "c1dd1af1-ce86-408b-a6d2-d09c8c423de7")
+		)
+		(instances
+			(project "RC4136_to_OPA1679_16_pin_soic"
+				(path "/511931a4-554d-4f3e-bf51-12389109913a"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 153.67 73.66 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cecc5d5-23bd-4f1b-b6b1-9acf6d068553")
+		(property "Reference" "U2"
+			(at 153.67 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 153.67 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 154.94 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 153.67 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "60591b15-41da-48ec-8e52-70828236419e")
+		)
+		(pin "5"
+			(uuid "9e3f0069-99c2-4797-9898-dabe475aaa3b")
+		)
+		(pin "2"
+			(uuid "6b0f297e-a1ff-457d-9626-07b1c3167a00")
+		)
+		(pin "10"
+			(uuid "db32a1d6-2880-429f-813d-d167a6b2ab46")
+		)
+		(pin "9"
+			(uuid "47992473-c8cb-49e0-9b00-57d915203238")
+		)
+		(pin "12"
+			(uuid "55e6d35e-dafb-4415-9219-dda94aa6d082")
+		)
+		(pin "4"
+			(uuid "61ef81fc-e662-449a-9ae9-a7ff463bfd50")
+		)
+		(pin "6"
+			(uuid "fee65c0c-136a-405b-853c-5c4828d9c7bd")
+		)
+		(pin "11"
+			(uuid "a1c2d258-3c26-40c9-adb7-7bec2a7e79bd")
+		)
+		(pin "7"
+			(uuid "928b4cf1-efdf-4e1a-90d6-a5fa5b72aa6e")
+		)
+		(pin "1"
+			(uuid "8185e090-1a54-4dde-8504-e87ebf1680f9")
+		)
+		(pin "13"
+			(uuid "d8deda33-8003-47c5-b54a-2d3d28c92d17")
+		)
+		(pin "14"
+			(uuid "7fc75ba5-ad37-461a-aa67-76e105964524")
+		)
+		(pin "8"
+			(uuid "c1dd1af1-ce86-408b-a6d2-d09c8c423de8")
+		)
+		(instances
+			(project "RC4136_to_OPA1679_16_pin_soic"
+				(path "/511931a4-554d-4f3e-bf51-12389109913a"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 152.4 111.76 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da1210f6-ca23-4c68-840e-c2c390d66c95")
+		(property "Reference" "U2"
+			(at 152.4 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 152.4 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 153.67 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 152.4 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "60591b15-41da-48ec-8e52-70828236419f")
+		)
+		(pin "5"
+			(uuid "9e3f0069-99c2-4797-9898-dabe475aaa3c")
+		)
+		(pin "2"
+			(uuid "6b0f297e-a1ff-457d-9626-07b1c3167a01")
+		)
+		(pin "10"
+			(uuid "db32a1d6-2880-429f-813d-d167a6b2ab47")
+		)
+		(pin "9"
+			(uuid "47992473-c8cb-49e0-9b00-57d915203239")
+		)
+		(pin "12"
+			(uuid "55e6d35e-dafb-4415-9219-dda94aa6d083")
+		)
+		(pin "4"
+			(uuid "61ef81fc-e662-449a-9ae9-a7ff463bfd51")
+		)
+		(pin "6"
+			(uuid "fee65c0c-136a-405b-853c-5c4828d9c7be")
+		)
+		(pin "11"
+			(uuid "a1c2d258-3c26-40c9-adb7-7bec2a7e79be")
+		)
+		(pin "7"
+			(uuid "928b4cf1-efdf-4e1a-90d6-a5fa5b72aa6f")
+		)
+		(pin "1"
+			(uuid "8185e090-1a54-4dde-8504-e87ebf1680fa")
+		)
+		(pin "13"
+			(uuid "d8deda33-8003-47c5-b54a-2d3d28c92d18")
+		)
+		(pin "14"
+			(uuid "7fc75ba5-ad37-461a-aa67-76e105964525")
+		)
+		(pin "8"
+			(uuid "c1dd1af1-ce86-408b-a6d2-d09c8c423de9")
+		)
+		(instances
+			(project "RC4136_to_OPA1679_16_pin_soic"
+				(path "/511931a4-554d-4f3e-bf51-12389109913a"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 153.67 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6984446-f091-4984-86ad-a2854380fdd9")
+		(property "Reference" "U2"
+			(at 153.67 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 153.67 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm"
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 154.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "60591b15-41da-48ec-8e52-7082823641a0")
+		)
+		(pin "5"
+			(uuid "9e3f0069-99c2-4797-9898-dabe475aaa3d")
+		)
+		(pin "2"
+			(uuid "6b0f297e-a1ff-457d-9626-07b1c3167a02")
+		)
+		(pin "10"
+			(uuid "db32a1d6-2880-429f-813d-d167a6b2ab48")
+		)
+		(pin "9"
+			(uuid "47992473-c8cb-49e0-9b00-57d91520323a")
+		)
+		(pin "12"
+			(uuid "55e6d35e-dafb-4415-9219-dda94aa6d084")
+		)
+		(pin "4"
+			(uuid "61ef81fc-e662-449a-9ae9-a7ff463bfd52")
+		)
+		(pin "6"
+			(uuid "fee65c0c-136a-405b-853c-5c4828d9c7bf")
+		)
+		(pin "11"
+			(uuid "a1c2d258-3c26-40c9-adb7-7bec2a7e79bf")
+		)
+		(pin "7"
+			(uuid "928b4cf1-efdf-4e1a-90d6-a5fa5b72aa70")
+		)
+		(pin "1"
+			(uuid "8185e090-1a54-4dde-8504-e87ebf1680fb")
+		)
+		(pin "13"
+			(uuid "d8deda33-8003-47c5-b54a-2d3d28c92d19")
+		)
+		(pin "14"
+			(uuid "7fc75ba5-ad37-461a-aa67-76e105964526")
+		)
+		(pin "8"
+			(uuid "c1dd1af1-ce86-408b-a6d2-d09c8c423dea")
+		)
+		(instances
+			(project "RC4136_to_OPA1679_16_pin_soic"
+				(path "/511931a4-554d-4f3e-bf51-12389109913a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:RC4136N")
+		(at 100.33 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0bed004-7b57-4efc-86c8-c1410b28bbe7")
+		(property "Reference" "U1"
+			(at 113.03 53.2698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC4136N"
+			(at 113.03 55.8098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+			(at 101.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/rc4136.pdf?ts=1635078180688&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 101.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIP-14 Quad Operational Amplifier, 6mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 100.33 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c723dc47-48c2-4a62-83a4-94fb2f1ef00e")
+		)
+		(pin "13"
+			(uuid "ef434a9a-e093-4c91-9aaa-fcb356167575")
+		)
+		(pin "2"
+			(uuid "505c40d8-189e-4074-869a-e32bd0ae9c78")
+		)
+		(pin "11"
+			(uuid "1a9d2658-9ebc-415d-a662-ab5f080d5133")
+		)
+		(pin "3"
+			(uuid "e87be371-a32e-4a39-82b5-d058312b5d73")
+		)
+		(pin "7"
+			(uuid "ebb433a2-1c3d-484f-bbd1-5f6d91e94556")
+		)
+		(pin "5"
+			(uuid "9b93ac8c-7c6a-4bb6-a0d4-7fbaeb24ae61")
+		)
+		(pin "6"
+			(uuid "91e59f41-782d-4b19-8df8-7144c83d3c46")
+		)
+		(pin "8"
+			(uuid "41053912-327f-4600-8807-b2ce9858e822")
+		)
+		(pin "9"
+			(uuid "fd9a14a1-be15-4f13-8d6f-f245df07c0d7")
+		)
+		(pin "4"
+			(uuid "0fa11e0a-03e0-4c7c-96c8-5b55a0c65c4c")
+		)
+		(pin "10"
+			(uuid "648f4539-53fe-4f69-80a1-abe2126772b1")
+		)
+		(pin "12"
+			(uuid "335d9a3c-2b4b-4a52-899a-fa784009a6b2")
+		)
+		(pin "14"
+			(uuid "050cfe8a-af2c-4753-ba39-a388d9827af2")
+		)
+		(instances
+			(project "RC4136_to_OPA1679_16_pin_soic"
+				(path "/511931a4-554d-4f3e-bf51-12389109913a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
